@@ -23,8 +23,9 @@ Splice junction detection is pivotal for gene expression and protein synthesis a
 ---
 
 ## 🎥 Project Pitch Video
-
 [![Watch the video](https://img.youtube.com/vi/sGUtIR6pUaU/0.jpg)](https://www.youtube.com/watch?v=sGUtIR6pUaU)
+
+---
 
 ## 📊 Dataset Summary
 | Feature | Description |
@@ -75,6 +76,50 @@ Splice junction detection is pivotal for gene expression and protein synthesis a
 
 ---
 
+## 🖼 Visual Plots and Insights
+
+### 🔬 R-Based EDA Visualizations:
+
+**Nucleotide Frequency Distribution**  
+Shows the frequency of A, T, C, G across DNA sequences — important to understand composition biases.  
+![Nucleotide Frequency](assets/nucleotide_frequency.jpeg)
+
+**GC Content Density Plot**  
+Demonstrates variation in GC content across different classes, offering insight into sequence stability.  
+![GC Content Density](assets/gc_content_density.jpeg)
+
+**Top 2-mers and 3-mers**  
+Highlights commonly occurring nucleotide patterns (di-nucleotides and tri-nucleotides) for feature selection.  
+![Top K-mers](assets/top_kmers.jpeg)
+
+**Sequence Length Distribution**  
+Validates uniform sequence lengths, critical for consistent preprocessing.  
+![Sequence Length Variation](assets/sequence_length.jpeg)
+
+**Splice Site Start and End Motifs**  
+Visualizes conserved sequence motifs at splice junction boundaries.  
+![Splice Site Motifs](assets/start_end_motifs.jpeg)
+
+**Nucleotide Transition Sankey Plot**  
+Shows nucleotide flow transitions — useful for analyzing positional sequence behavior.  
+![Sankey Transitions](assets/sankey_transitions.jpeg)
+
+### 📊 Python-Based Model Performance Visuals:
+
+**Confusion Matrix – Random Forest Model**  
+Displays classification results and misclassification patterns for EI, IE, N classes.  
+![Confusion Matrix RF](assets/confusion_matrix_rf.png)
+
+**Model Accuracy Comparison**  
+Side-by-side accuracy of Logistic Regression, Random Forest, Optimized RF, and DNN models.  
+![Model Accuracy Comparison](assets/accuracy_comparison.png)
+
+**Feature Importance Plot – Random Forest**  
+Highlights most influential nucleotide positions contributing to classification.  
+![Feature Importance](assets/feature_importance_rf.png)
+
+---
+
 ## 📂 Repository Structure
 ```
 dna-splice-junction-classification-gene-sequences/
@@ -86,6 +131,7 @@ dna-splice-junction-classification-gene-sequences/
 ├── YouTube Video Link.txt                → 1-min video pitch (YouTube link)
 ├── dna_data.csv                          → Sample DNA dataset
 ├── plots.R                               → EDA visualizations in R
+├── assets/                               → R plots and model performance images
 ```
 
 ---
@@ -112,6 +158,7 @@ Open and run `plots.R` in your R environment to generate all DNA visualizations.
 ## 📎 Deliverables Summary
 - 🧠 Python ML Workflow (Jupyter Notebook)
 - 📊 EDA & Visualization Script (R Script)
+- 🖼 Visual Insights (R & Python Plots)
 - 📄 Final Report PDF
 - 📽 Slide Deck (PPTX)
 - 📃 Project Proposal
@@ -139,9 +186,9 @@ If you intend to reuse or adapt this project or dataset, please review the relev
 
 ## 📬 To reach out to me
 **Raghavendra Prasath Sridhar**  
-📧 Email: sridhar.r@northeastern.edu
-🔗 LinkedIn: linkedin.com/in/raghavendraprasath/ 
-🐙 GitHub: github.com/raghavendraprasath
+📧 Email: sridhar.r@northeastern.edu  
+🔗 LinkedIn: [linkedin.com/in/raghavendraprasath/](https://www.linkedin.com/in/raghavendraprasath/)  
+🐙 GitHub: [github.com/raghavendraprasath](https://github.com/raghavendraprasath)
 
 ---
 
