@@ -77,19 +77,15 @@ Splice junction detection is pivotal for gene expression and protein synthesis a
 
 ## 📂 Repository Structure
 ```
-predicting-splice-junctions-ml/
-├── data/                            → Sample DNA dataset
-├── notebooks/
-│   ├── Team_15_DSEM_Mini_Project.ipynb → Python modeling & training
-│   └── plots.R                         → EDA visualizations in R
-├── reports/
-│   ├── Team15_Project_Report.pdf      → Final report
-│   ├── MiniProject_Group15.pptx       → Presentation slides
-│   └── Team15_Proposal_DSEM_MiniProject.pdf → Project proposal
-├── results/                         → Confusion matrix, metrics, feature importance
-├── YouTube Video Link.txt          → 1-min video pitch: https://www.youtube.com/watch?v=sGUtIR6pUaU
-├── requirements.txt                → Python dependencies
-└── README.md                       → Project documentation
+dna-splice-junction-classification-gene-sequences/
+├── MiniProject_Group15.pptx              → Presentation slides
+├── README.md                             → Project documentation
+├── Team15_Proposal_DSEM_MiniProject.pdf  → Project proposal
+├── Team_15_DSEM_Mini_Project.ipynb       → Python modeling & training
+├── Team_15_Project_Report.pdf            → Final report
+├── YouTube Video Link.txt                → 1-min video pitch (YouTube link)
+├── dna_data.csv                          → Sample DNA dataset
+├── plots.R                               → EDA visualizations in R
 ```
 
 ---
