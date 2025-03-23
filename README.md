@@ -126,11 +126,11 @@ Open and run `plots.R` in your R environment to generate all DNA visualizations.
 
 ---
 
-## 📬 Contact
+## 📬 To reach out to me
 **Raghavendra Prasath Sridhar**  
-📧 Email: [your_email]  
-🔗 LinkedIn: [your_linkedin_url]  
-🐙 GitHub: [your_github_username]
+📧 Email: sridhar.r@northeastern.edu
+🔗 LinkedIn: linkedin.com/in/raghavendraprasath/ 
+🐙 GitHub: github.com/raghavendraprasath
 
 ---
 
