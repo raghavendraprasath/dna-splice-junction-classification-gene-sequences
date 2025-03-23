@@ -126,6 +126,17 @@ Open and run `plots.R` in your R environment to generate all DNA visualizations.
 
 ---
 
+## 📌 Note
+This repository is intended solely for **academic, research, and portfolio purposes**. All project materials—code, datasets, analysis, visualizations, reports, and documentation—were created as part of the **Data Science Engineering Methods & Tools course at Northeastern University**.
+
+The dataset used in this project is sourced from the **UCI Machine Learning Repository** and is used here in accordance with their guidelines for **non-commercial and educational use only**. Proper attribution has been provided in the README and associated documentation.
+
+> **All rights for the dataset remain with the original creators. This project does not claim ownership of the dataset and is shared purely for learning and demonstration.**
+
+If you intend to reuse or adapt this project or dataset, please review the relevant licensing and attribution requirements for your intended use.
+
+---
+
 ## 📬 To reach out to me
 **Raghavendra Prasath Sridhar**  
 📧 Email: sridhar.r@northeastern.edu
