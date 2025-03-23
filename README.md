@@ -97,10 +97,6 @@ Highlights commonly occurring di-nucleotide and tri-nucleotide patterns for moti
 Validates uniform sequence lengths, critical for consistent preprocessing.  
 ![Sequence Length Variation](assets/sequence_length_variation.jpeg)
 
-**Splice Site Start and End Motifs**  
-Visualizes conserved sequence motifs at splice junction boundaries.  
-![Splice Site Motifs](assets/start_end_motifs.jpeg)
-
 **Nucleotide Transition Sankey Plot**  
 Shows nucleotide flow transitions — useful for analyzing positional sequence behavior.  
 ![Sankey Transitions](assets/nucleotide_transition_flow.jpeg)
