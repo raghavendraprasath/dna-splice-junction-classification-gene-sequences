@@ -86,15 +86,16 @@ Shows the frequency of A, T, C, G across DNA sequences — important to understa
 
 **GC Content Density Plot**  
 Demonstrates variation in GC content across different classes, offering insight into sequence stability.  
-![GC Content Density](assets/gc_content_density.jpeg)
+![GC Content Density](assets/gc_content_density_distribution.jpeg)
 
-**Top 2-mers and 3-mers**  
-Highlights commonly occurring nucleotide patterns (di-nucleotides and tri-nucleotides) for feature selection.  
-![Top K-mers](assets/top_kmers.jpeg)
+**Top 2-mers and Top 3-mers**  
+Highlights commonly occurring di-nucleotide and tri-nucleotide patterns for motif discovery and feature selection.  
+![Top 2-mers](assets/top_2mers.jpeg)  
+![Top 3-mers](assets/top_3mers.jpeg)
 
 **Sequence Length Distribution**  
 Validates uniform sequence lengths, critical for consistent preprocessing.  
-![Sequence Length Variation](assets/sequence_length.jpeg)
+![Sequence Length Variation](assets/sequence_length_variation.jpeg)
 
 **Splice Site Start and End Motifs**  
 Visualizes conserved sequence motifs at splice junction boundaries.  
@@ -102,21 +103,29 @@ Visualizes conserved sequence motifs at splice junction boundaries.
 
 **Nucleotide Transition Sankey Plot**  
 Shows nucleotide flow transitions — useful for analyzing positional sequence behavior.  
-![Sankey Transitions](assets/sankey_transitions.jpeg)
+![Sankey Transitions](assets/nucleotide_transition_flow.jpeg)
 
 ### 📊 Python-Based Model Performance Visuals:
 
 **Confusion Matrix – Random Forest Model**  
 Displays classification results and misclassification patterns for EI, IE, N classes.  
-![Confusion Matrix RF](assets/confusion_matrix_rf.png)
+![Confusion Matrix RF](assets/RF_confusionmatrix.png)
+
+**Confusion Matrix – Optimized Random Forest Model**  
+Demonstrates improved prediction accuracy with grid-tuned Random Forest.  
+![Optimized RF Confusion Matrix](assets/OptimizedRF_confusionmatrix.png)
 
 **Model Accuracy Comparison**  
 Side-by-side accuracy of Logistic Regression, Random Forest, Optimized RF, and DNN models.  
-![Model Accuracy Comparison](assets/accuracy_comparison.png)
+![Model Accuracy Comparison](assets/model_comparison.png)
 
 **Feature Importance Plot – Random Forest**  
 Highlights most influential nucleotide positions contributing to classification.  
-![Feature Importance](assets/feature_importance_rf.png)
+![Feature Importance RF](assets/feature_importance_RF.png)
+
+**Feature Importance Plot – Optimized Random Forest**  
+Shows updated feature weightings after RF hyperparameter tuning.  
+![Feature Importance Optimized RF](assets/feature_importance_optimizedRF.png)
 
 ---
 
