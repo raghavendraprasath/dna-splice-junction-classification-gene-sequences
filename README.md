@@ -22,7 +22,8 @@ Splice junction detection is pivotal for gene expression and protein synthesis a
 
 ---
 
-[![Watch the video](https://img.youtube.com/vi/sGUtIR6pUaU/0.jpg)](https://www.youtube.com/watch?v=sGUtIR6pUaU)
+## 🎥 Project Pitch Video
+▶️ [Watch on YouTube](https://www.youtube.com/watch?v=sGUtIR6pUaU)
 
 ## 📊 Dataset Summary
 | Feature | Description |
